@@ -83,6 +83,11 @@ button:active{
 }
 
 @media screen and (max-width: 760px){
+	
+	#loader-wrapper{
+    top: 48%;
+    left: 37%;
+}
   table, thead, tbody, th, td, tr { 
 		display: block; 
 	}
