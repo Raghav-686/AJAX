@@ -33,12 +33,7 @@ tbody td {
   position: relative;
 }
 tbody td:hover:before {
-  content: "";
   position: absolute;
-  left: 0;
-  right: 0;
-  background-color: rgba(255, 255, 255, 0.2);
-  z-index: -1;
 }
 
 #buttons{
@@ -99,7 +94,10 @@ button:active{
 		left: -9999px;
 	}
 	
-	tr { border: 1px solid #ccc; }
+	tr 
+  { 
+    border: 1px solid #ccc; 
+  }
 	
 	td { 
 		border: none;
